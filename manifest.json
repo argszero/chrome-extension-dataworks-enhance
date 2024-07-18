@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "chrome-extension-dataworks-enhance",
     "description": "chrome-extension-dataworks-enhance",
-    "version": "1.0",
+    "version": "1.0.3",
     "action": {
         "default_popup": "popup.html",
         "default_icon": "icon.png"
@@ -14,8 +14,7 @@
                 "scripts/content.js"
             ],
             "matches": [
-                "https://*.data.aliyun.com/?defaultProjectId=*",
-                "https://developer.chrome.com/docs/webstore/*"
+                "https://*.data.aliyun.com/?defaultProjectId=*"
             ]
         }
     ]
