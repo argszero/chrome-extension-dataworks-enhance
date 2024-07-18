@@ -25,12 +25,18 @@
 
 **安装使用：**
 
-1. 下载该项目代码并解压缩。
-2. 在 Chrome 浏览器中打开 `chrome://extensions` 页面。
-3. 启用“开发者模式”。
-4. 点击“加载解压缩的扩展程序”。
-5. 选择解压缩的项目文件夹。
-6. 该扩展程序将被加载到 Chrome 浏览器中。
+**1. 手动安装:**
+
+* **下载项目代码：**  从项目的 GitHub 页面 [https://github.com/argszero/chrome-extension-dataworks-enhance/releases](https://github.com/argszero/chrome-extension-dataworks-enhance/releases)  下载安装包(chrome-extension-dataworks-enhance.zip
+)并解压缩。
+* **打开扩展程序页面：** 在 Chrome 浏览器中打开 `chrome://extensions` 页面。
+* **启用开发者模式：**  启用页面右上角的“开发者模式”。
+* **加载解压缩的扩展程序：** 点击“加载解压缩的扩展程序”，选择解压缩的项目文件夹。
+* **完成安装：** 该扩展程序将被加载到 Chrome 浏览器中。打开dataworks页面https://ide2-cn-beijing.data.aliyun.com/?defaultProjectId=xxx,在页面左上角会新增一个sync按钮，点击按钮设置本地同步目录。
+
+**2.  Chrome 网上应用店安装 (待上线):**
+
+*  待扩展程序通过审核后，您可以在 Chrome 网上应用店搜索并安装。
 
 **贡献：**
 
@@ -54,3 +60,5 @@
 **致谢：**
 
 感谢所有为该项目做出贡献的人员。
+
+
