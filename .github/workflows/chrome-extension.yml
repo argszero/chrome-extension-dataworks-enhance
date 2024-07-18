@@ -22,7 +22,8 @@ jobs:
         exclusions: '*.git* /*node_modules/* .editorconfig'
         
     - name: Upload Release
-      uses: ncipollo/release-action@v1.12.0
+      uses: ncipollo/release-action@v1.14.0
       with:
+        allowUpdates: true
         artifacts: "chrome-extension-dataworks-enhance.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
